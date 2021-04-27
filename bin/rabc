@@ -21,10 +21,21 @@ unless File.exist? ABC
 end
 
 unless File.exist?(MID) and File.mtime(MID) > File.mtime(ABC)
+  active = true
   File.open(TMP, 'w') do |tmp|
-    File.open(ABC) do |abc|
+    File.open(ABC, 'r') do |abc|
       while line = abc.gets
-        tmp.puts line
+        if line.start_with? '%%'
+          case line
+          when /^%%OFF\b/
+            active = false
+            next
+          when /^%%ON\b/
+            active = true
+            next
+          end
+        end
+        tmp.puts line  if active
       end
     end
   end
