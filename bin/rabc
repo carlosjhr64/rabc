@@ -1,0 +1,37 @@
+#!/usr/bin/env ruby
+require 'help_parser'
+
+OPTIONS = HelpParser['0.0.0', <<~HELP]
+  Usage:
+    rabc [:options+] <name=NAME>
+  Options:
+    --port=PORT\tMidi port
+  Types:
+    NAME /^\\w+$/
+    PORT /^\\d+:\\d+$/
+HELP
+
+NAME = OPTIONS.name
+ABC  = 'abc/'+NAME+'.abc'
+TMP  = 'tmp/'+NAME+'.abc'
+MID  = 'mid/'+NAME+'.mid'
+
+unless File.exist? ABC
+  $stderr.puts "Does not exist: #{ABC}"
+end
+
+unless File.exist?(MID) and File.mtime(MID) > File.mtime(ABC)
+  File.open(TMP, 'w') do |tmp|
+    File.open(ABC) do |abc|
+      while line = abc.gets
+        tmp.puts line
+      end
+    end
+  end
+  system('abc2midi', TMP, '-o', MID) or exit(1)
+end
+if port = OPTIONS.port
+  system('aplaymidi', '-p', port, MID)
+else
+  system('timidity', MID)
+end

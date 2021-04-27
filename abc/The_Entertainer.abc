@@ -1,0 +1,74 @@
+X:1
+T:The Entertainer
+C:Scott Joplin, 1902
+Z:CarlosJHR64
+L:1/8
+M:2/2
+Q:1/2=76
+K:C
+P:Intro
+V:Tenor
+ |d' e' c' a-a b g2|
+  d e c A-A B G2|
+  D E C A,-A, B, A, _A,|
+  G,2 z2 [GBDg]2 D ^D|
+V:Bass
+ |d e c A-A B G2|
+  D E C A,-A, B, G,2|
+  D, E, C, A,,-A,, B,, A,, _A,,|
+  G,,2 z2 [G,,,G,,]2 [G,B,]2|
+P:A1
+V:Tenor
+ |:E c2 E c2 E c-|
+  c4-c [cec'] [dff'] [^d^f^f']|
+  [ege'] [cec'] [dfd'] [ege']-[ege'] [Bdb] [dfd']2|
+  [cec']4-[cec']2 (D^D)|
+V:Bass
+ |:C,2 [E,G,E]2 [G,,G,]2 [G,_B,C]2|
+  [F,,F,]2 [A,C]2 [E,,E,]2 [_E,,_E,]2|
+  G,,2 [E,G,C]2 G,,2 [F,G,B,]2|
+ C,2 [E,G,C]2 [E,G,C]2 [G,B,]2|
+P:A2
+V:Tenor
+ |E c2 E c2 E c-|
+  c4-c2 [Aca] [Gcg]|
+  [^Fc^f] [Aa] [cc'] [ee']-[ee'] [dd'] [cc'] [Aa]|
+  [d=fd']4-[dfd']2 (D^D)|
+V:Bass
+ |C,2 [E,G,C]2 [G,,G,]2 [G,_B,C]2|
+  [F,,F,]2 [A,C]2 [E,,E,]2 [_E,,_E,]2|
+  [D,,D,]2 [D,^F,A,C]2 D,2 [F,A,C]2|
+  [G,B,]2 [G,,G,]2 [A,,A,]2 [B,,B,]2|
+P:A3
+V:Tenor
+ |E c2 E c2 E c-|
+  c4-c [Acc'] [Bdd'] [^B^d^d']|
+  [ege'] [cec'] [dfd'] [ege']-[ege'] [Bdb] [dfd']2|
+  [cec']4-[cec']2 [cc'] [dd']|
+V:Bass
+ |C,2 [E,G,C]2 [G,,G,]2 [G,_B,C]2|
+  [F,,F,]2 [A,C]2 [E,,E,]2 [G,C]2|
+  G,,2 [E,G,C]2 G,,2 [F,G,B,]2|
+	C,2 [E,G,C]2 [G,CE]2 z2|
+P:A4
+V:Tenor
+ |[ee'] [cc'] [dd'] [ee']-[ee'] [cc'] [dd'] [cc']|
+  [ee'] [cc'] [dd'] [ee']-[ee'] [cc'] [dd'] [cc']|
+	[ege'] [cec'] [dfd'] [ege']-[ege'] [Bdb] [dfd']2|
+[1
+	[cec']4-[cec']2 (D^D)
+:|2
+	[cec']4-[cec'] [Ece] [Fdf] [^F^d^f]
+|]
+V:Bass
+ |[C,C]2 [G,CE]2 [_B,,_B,]2 [G,CE]2|
+  [A,,A,]2 [A,CE]2 [_A,,_A,]2 [A,CE]2|
+	[G,,G,]2 [G,CE]2 G,,2 [G,B,]2|
+[1
+  [C,G,C]2 [G,,G,]2 [A,,A,]2 [B,,B,]2
+:|2
+  [C,G,C] [G,,G,] [C,,C,]2 z4
+|]
+P:B1
+V:Tenor
+V:Bass
