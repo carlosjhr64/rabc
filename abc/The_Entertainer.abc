@@ -56,7 +56,7 @@ V:Tenor
   [ee'] [cc'] [dd'] [ee']-[ee'] [cc'] [dd'] [cc']|
 	[ege'] [cec'] [dfd'] [ege']-[ege'] [Bdb] [dfd']2|
 [1
-	[cec']4-[cec']2 (D^D)
+	[cec']4-[cec']2 D ^D
 :|2
 	[cec']4-[cec'] [Ece] [Fdf] [^F^d^f]
 |]
@@ -107,12 +107,43 @@ V:Tenor
  |c2 A c-c A c A|
   G c e g-g e c G|
   [^FA]2 [Fd]2 [=Fe] [Fd]2 [Ec]-|
-  [Ec]4-[Ec] [Ece] [Fdf] [^F^d^f]:|
+[1
+  [Ec]4-[Ec] [Ece] [Fdf] [^F^d^f]
+:|2
+  [Ec]4-[Ec]2 (D^D)
+|]
 V:Bass
  |[F,A,CF]2 [F,A,CF]2 [^F,A,C^D]2 [F,A,CD]2|
   [G,CE]2 [G,CE]2 [G,CE]2 [G,CE]2|
   [D,C]2 [D,A,]2 [G,B,]2 [G,B,]2|
-  [C,C]2 L[G,,G,]2 L[E,,E,]2 L[D,,D,]2:|
+[1
+  [C,C]2 L[G,,G,]2 L[E,,E,]2 L[D,,D,]2
+:|2
+  [C,C]2 [G,,G,]2 [C,,C,]2 z2
+|]
+% TODO REPEAT
+P:C1
+V:Tenor
+ |E c2 E c2 E c-|
+  c4-c [ege'] [dfd'] [^d^f^d']|
+  [ege'] [cdc'] [dfd'] [ege']-[ege'] [Bdb] [dfd']2|
+  [cec']4-[cec']2 (D^D)|
+V:Bass
+ |C,2 [E,G,C]2 [G,,G,]2 [G,_B,C]2|
+  [F,,F,]2 [A,C]2 [E,,E,]2 [G,C]2|
+  G,,2 [E,G,C]2 G,,2 [F,G,B,]2|
+  C,2 [E,G,C]2 [E,G,C2]2 [G,B,]2|
+P:C2
+V:Tenor
+ |E c2 E c2 E c-|
+  c4-c2 [Aca] [Gcg]|
+  [^Fc^f] [Aa] [cc'] [ee']-[ee'] [d'd] [cc'] [Aa]|
+  [d=fd']4-[dfd']2 (D^D)|
+V:Bass
+ |C,2 [E,G,C]2 [G,,G,]2 [G,_B,C]2|
+  [F,,F,]2 [A,C]2 [E,,E,]2 [_E,,E,]2|
+  [D,,D]2 [D,^F,A,C]2 D,2 [FAC]2|
+  [G,B,]2 [G,,G,]2 [A,,A]2 [B,,B,]2|
 %
 %
 %
