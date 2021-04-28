@@ -6,6 +6,7 @@ L:1/8
 M:2/2
 Q:1/2=76
 K:C
+%%OFF
 P:Intro
 V:Tenor
  |d' e' c' a-a b g2|
@@ -139,11 +140,25 @@ V:Tenor
   c4-c2 [Aca] [Gcg]|
   [^Fc^f] [Aa] [cc'] [ee']-[ee'] [d'd] [cc'] [Aa]|
   [d=fd']4-[dfd']2 (D^D)|
+  E c2 E c2 E c-|
 V:Bass
  |C,2 [E,G,C]2 [G,,G,]2 [G,_B,C]2|
   [F,,F,]2 [A,C]2 [E,,E,]2 [_E,,E,]2|
   [D,,D]2 [D,^F,A,C]2 D,2 [FAC]2|
   [G,B,]2 [G,,G,]2 [A,,A]2 [B,,B,]2|
+  C,2 [E,G,C]2 [G,,G]2 [G,_B,C]2|
+%%ON
+P:C3
+V:Tenor
+ |c4-c [cec'] [dfd'] [^d^f^d']|
+  [ege'] [cec'] [dfd'] [ege']-[ege'] [Bdb] [dfd']2|
+  [cec']4-[cec']2 [cc'] [dd']|
+  [ee'] [cc'] [dd'] [ee']-[ee'] [cc'] [dd'] [cc']|
+V:Bass
+ |[F,,F,]2 [A,C]2 [E,,E]2 [G,C]2|
+  G,,2 [E,G,C]2 G,,2 [F,G,B,]2|
+  C,2 [E,G,C]2 [G,CE]2 z2|
+  [C,C]2 [G,CE]2 [_B,,_B,]2 [G,CE]2|
 %
 %
 %
