@@ -6,7 +6,6 @@ L:1/8
 M:2/2
 Q:1/2=76
 K:C
-%%OFF
 P:Intro
 V:Tenor
  |d' e' c' a-a b g2|
@@ -122,7 +121,6 @@ V:Bass
 :|2
   [C,C]2 [G,,G,]2 [C,,C,]2 z2
 |]
-% TODO REPEAT
 P:C1
 V:Tenor
  |E c2 E c2 E c-|
@@ -147,7 +145,6 @@ V:Bass
   [D,,D]2 [D,^F,A,C]2 D,2 [FAC]2|
   [G,B,]2 [G,,G,]2 [A,,A]2 [B,,B,]2|
   C,2 [E,G,C]2 [G,,G]2 [G,_B,C]2|
-%%ON
 P:C3
 V:Tenor
  |c4-c [cec'] [dfd'] [^d^f^d']|
@@ -159,6 +156,15 @@ V:Bass
   G,,2 [E,G,C]2 G,,2 [F,G,B,]2|
   C,2 [E,G,C]2 [G,CE]2 z2|
   [C,C]2 [G,CE]2 [_B,,_B,]2 [G,CE]2|
+P:C4
+V:Tenor
+ |[ee'] [cc'] [dd'] [ee]-[ee] [cc'] [dd'] [cc']|
+  [ege'] [cec'] [dfd'] [ege']-[ege'] [Bdb] [dfd']2|
+  [cdc']4 [cde']2 z2|
+V:Bass
+ |[A,,A,]2 [A,CF]2 [_A,,_A,]2 [A,CF]2|
+  [G,,G,]2 [G,CE]2 G,,2 [G,B,]2|
+  [C,G,C]2 [G,,B,]2 [C,,C,]2 z2|
 %
 %
 %
