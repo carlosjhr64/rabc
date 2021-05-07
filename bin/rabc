@@ -6,6 +6,9 @@ OPTIONS = HelpParser['0.0.0', <<~HELP]
     rabc [:options+] <name=NAME>
   Options:
     --port=PORT\tMidi port
+    --check
+  Exclusive:
+    check port
   Types:
     NAME /^\\w+$/
     PORT /^\\d+:\\d+$/
@@ -20,7 +23,7 @@ unless File.exist? ABC
   $stderr.puts "Does not exist: #{ABC}"
 end
 
-unless File.exist?(MID) and File.mtime(MID) > File.mtime(ABC)
+def write_tmp_file
   active = true
   File.open(TMP, 'w') do |tmp|
     File.open(ABC, 'r') do |abc|
@@ -39,10 +42,27 @@ unless File.exist?(MID) and File.mtime(MID) > File.mtime(ABC)
       end
     end
   end
-  system('abc2midi', TMP, '-o', MID) or exit(1)
 end
-if port = OPTIONS.port
-  system('aplaymidi', '-p', port, MID)
+
+def uptodate?(file)
+  File.exist?(file) and File.mtime(file) > File.mtime(ABC)
+end
+
+def play_midi_file
+  unless uptodate?(MID)
+    write_tmp_file
+    system('abc2midi', TMP, '-o', MID) or exit(1)
+  end
+  if port = OPTIONS.port
+    system('aplaymidi', '-p', port, MID)
+  else
+    system('timidity', MID)
+  end
+end
+
+if OPTIONS.check?
+  write_tmp_file unless uptodate?(TMP)
+  system('abc2midi', TMP, '-c') or exit(1)
 else
-  system('timidity', MID)
+  play_midi_file
 end
