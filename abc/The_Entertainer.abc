@@ -208,7 +208,7 @@ V:Tenor
 [1
   [Af]2 _B c d e f g
 :|2
-  z8
+  [Af]2  z2 [fac'f']2 z2
 |]
 V:Bass
   [B,,B,]2 [B,D]2 [G,,G,]2 [^G,,^G,]2|
@@ -217,5 +217,18 @@ V:Bass
 [1
   [F,,F,]2 z2 z4|
 :|2
-  z8
+  [F,,F,]2 z2 [F,,,F,,]2 z2|
 |]
+P:E1
+V:Tenor
+K:C
+ |c2 a c-c a c a|
+  G c e g-g e c G|
+  [^FA]2 [Fc]2 [_Fe] [Fd]2 [Ec]-|
+  [Ec]4 [cegc']2 z2|
+V:Bass
+K:C
+ |[F,A,CF]2 [F,A,CF]2 [^F,A,C^D]2 [F,A,CD]2|
+  [G,CE]2 [G,CE]2 [G,CE]2 [G,CE]2|
+  [D,C]2 [D,A,]2 [G,B,]2 [G,B,]2|
+  [C,C]4 [C,,C,]2 z2|
