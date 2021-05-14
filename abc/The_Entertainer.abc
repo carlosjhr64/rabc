@@ -232,3 +232,55 @@ K:C
   [G,CE]2 [G,CE]2 [G,CE]2 [G,CE]2|
   [D,C]2 [D,A,]2 [G,B,]2 [G,B,]2|
   [C,C]4 [C,,C,]2 z2|
+P:F1
+V:Tenor
+ |:[DF]2 [^CD] [DF]-[DF] [CE] [DF]2|
+  z A [Fd] A c d c A|
+  [^FA]2 [Fc]2 [_Fe] [Fd]2 [Ec]-|
+  [Ec]4 [cegc']2 z2|
+V:Bass
+ |:F,,2 [F,A,]2 F,,2 [F,A,]2|
+  F,,2 [F,A,]2 F,,2 [F,A,]2|
+  [D,C]2 [D,A,]2 [G,B,]2 [G,B,]2|
+  [C,C]4 [C,,C,]2 z2|
+P:F2
+V:Tenor
+ |[Bd]2 [^A^c] [Bd]-[Bd] [Ac] [Bd]2|
+  z f [Ba] A c d c A|
+  [cc'] [cc'] [cc']4 [ca]2|
+  [cg]2 [EG] [EG] [EG]2 [EG]2|
+V:Bass
+ |G,,2 [F,G,B,]2 B,,2 [F,G,B]2|
+  G,,2 [F,G,B,]2 D,2 [F,G,B,]2|
+ [^D,^F,C]2 [D,F,C]4 [D,F,C]2|
+ [E,G,C]2 z2 z4|
+P:F3
+V:Tenor
+ |[DF]2 [^CE] [DF]-[DF] [CE] [DF]2|
+  z A [Fd] A c d c A|
+  [EG]2 [^D^F] [EG]-[EG] [DF] [EG]2|
+  z c [Ge] c d e d c|
+V:Bass
+ |F,,2 [F,A,]2 A,,2 [F,A,]2|
+  F,,2 [F,A,]2 A,,2 [F,A,]2|
+  C,2 [E,G,C]2 G,,2 [E,G,C]2|
+  C,2 [E,G,C]2 G,,2 [E,G,C]2|
+P:F4
+V:Tenor
+ |A ^G A [Ag]-[Ag] [Af]2 [Ac]|
+  [Ge] ^d e a-a c' g e|
+  [^Fc]2 [Fc]2 [=FBe] [FBd]2 [EGc]-|
+[1
+  [EGc]2 [EG] [EG] [EG]2 [EG]2
+:|2
+  [EGc]4 [egbc]2 z2
+|]
+V:Bass
+ |[F,,F,]2 [D,,D,]2 [E,,E,]2 [F,,F,]2|
+  [G,,G,]2 [G,CE]2 [^F,^CD]2 [G,CE]2|
+  [A,,A,]2 [D,,D,]2 [G,,G,]2 [B,,B,]2|
+[1
+  [C,C]2 z2 z4
+:|2
+  [C,C]2 [G,,G,]2 [C,,C,]2 z2
+|]
