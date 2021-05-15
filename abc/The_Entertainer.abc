@@ -217,6 +217,7 @@ V:Bass
 % ### D0 ###
 P:D0
 V:Aux
+K:F
  |:z8|[fbd']8|
 V:Tenor
 K:F
@@ -288,6 +289,7 @@ V:Bass
 % ### E1 ###
 P:E1
 V:Aux
+K:C
  |z8|z8|z8|z8|
 V:Tenor
 K:C
