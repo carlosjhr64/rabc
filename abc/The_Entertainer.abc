@@ -234,19 +234,19 @@ K:C
   [C,C]4 [C,,C,]2 z2|
 P:F1
 V:Tenor
- |:[DF]2 [^CD] [DF]-[DF] [CE] [DF]2|
+ |:[DF]2 [^CE] [DF]-[DF] [CE] [DF]2|
   z A [Fd] A c d c A|
-  [^FA]2 [Fc]2 [_Fe] [Fd]2 [Ec]-|
-  [Ec]4 [cegc']2 z2|
+  [EG]2 [^D^F] [EG]-[EG] [DF] [EG]2|
+  z c [Ge] c d e d c|
 V:Bass
- |:F,,2 [F,A,]2 F,,2 [F,A,]2|
-  F,,2 [F,A,]2 F,,2 [F,A,]2|
-  [D,C]2 [D,A,]2 [G,B,]2 [G,B,]2|
-  [C,C]4 [C,,C,]2 z2|
+ |:F,,2 [F,A,]2 A,,2 [F,A,]2|
+  F,,2 [F,A,]2 A,,2 [F,A,]2|
+  C,2 [E,G,C]2 G,,2 [E,G,C]2|
+  C,2 [E,G,C]2 G,,2 [E,G,C]2|
 P:F2
 V:Tenor
  |[Bd]2 [^A^c] [Bd]-[Bd] [Ac] [Bd]2|
-  z f [Ba] A c d c A|
+  z f [Ba] f g a g f|
   [cc'] [cc'] [cc']4 [ca]2|
   [cg]2 [EG] [EG] [EG]2 [EG]2|
 V:Bass
@@ -273,7 +273,7 @@ V:Tenor
 [1
   [EGc]2 [EG] [EG] [EG]2 [EG]2
 :|2
-  [EGc]4 [egbc]2 z2
+  [EGc]4 [cegc']2 z2
 |]
 V:Bass
  |[F,,F,]2 [D,,D,]2 [E,,E,]2 [F,,F,]2|
