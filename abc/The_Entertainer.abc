@@ -213,7 +213,7 @@ V:Tenor
 V:Bass
  |[A,,A,]2 [A,CF]2 [_A,,_A,]2 [A,CF]2|
   [G,,G,]2 [G,CE]2 G,,2 [G,B,]2|
-  [C,G,C]2 [G,,B,]2 [C,,C,]2 z2|
+  [C,G,C]2 [G,,G,]2 [C,,C,]2 z2|
 % ### D0 ###
 P:D0
 V:Aux
