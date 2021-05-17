@@ -26,14 +26,14 @@ V:Aux
  |:z8|z8|z8|z8|
 V:Tenor
  |:E c2 E c2 E c-|
-  c4-c [cec'] [dff'] [^d^f^f']|
+  c4-c [cec'] [dfd'] [^d^f^d']|
   [ege'] [cec'] [dfd'] [ege']-[ege'] [Bdb] [dfd']2|
   [cec']4-[cec']2 (D^D)|
 V:Bass
  |:C,2 [E,G,E]2 [G,,G,]2 [G,_B,C]2|
-  [F,,F,]2 [A,C]2 [E,,E,]2 [_E,,_E,]2|
+  [F,,F,]2 [A,C]2 [E,,E,]2 [G,C]2|
   G,,2 [E,G,C]2 G,,2 [F,G,B,]2|
- C,2 [E,G,C]2 [E,G,C]2 [G,B,]2|
+  C,2 [E,G,C]2 [E,G,C]2 [G,B,]2|
 % ### A2 ###
 P:A2
 V:Aux
