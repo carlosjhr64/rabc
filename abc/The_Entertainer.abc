@@ -110,13 +110,13 @@ V:Aux
 V:Tenor
  |[Geg]2 [Aea] [Geg]-[Geg] [Ece] [Fdf] [^F^d^f]|
   [Geg]2 [Aea] [Geg]-[Geg] g a ^a|
-  [dgb] [dgb]2 [c^fb]-[c^fb] a [fc] d|
+  [dgb] [dgb]2 [c^fb]-[c^fb] a [cf] d|
   [Bg]4-[Bg] [Ece] [Fdf] [^F^d^f]|
 V:Bass
  |C,2 [G,CE]2 G,,2 [G,CE]2|
   C,2 [G,CE]2 E,2 _E,2|
   D,2 [G,B,D]2 D,2 [A,CD]2|
-  [G,B,D]2 L[=F,,F,]2 L[E,,E,]2 L[E,,E,]2|
+  [G,B,D]2 L[=F,,=F,]2 L[E,,E,]2 L[E,,E,]2|
 % ### B3 ###
 P:B3
 V:Aux
