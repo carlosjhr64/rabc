@@ -230,7 +230,7 @@ K:F
 % ### D1 ###
 P:D1
 V:Aux
- |z8|[dgb]7 g|z8|z8|z8|
+ |z8|[dgb]4-[dgb]3 g|z8|z8|z8|
 V:Tenor
  |[df] e [df]2-[df]2 [dfa]2|
   z2 G ^F G A B z|
@@ -246,7 +246,7 @@ V:Bass
 % ### D2 ###
 P:D2
 V:Aux
- |z8|z8|[fbd']8|z8|[dgb]7 g|
+ |z8|z8|[fbd']8|z8|[dgb]4-[dgb]3 g|
 V:Tenor
  |a4 _b4|
  [fa] ^g [fa]2-[fa]2 [fac']2|
@@ -258,7 +258,7 @@ V:Bass
   F,,2 [A,CF]2 C,2 [A,CF]2|
   B,,2 [B,DF]2 F,2 [B,DF]2|
   D,,2 [A,DF]2 A,,2 [A,DF]2|
-  G,,2 [G,B,]2 D,2 [B,D]2|
+  G,,2 [B,D]2 D,2 [B,D]2|
 % ### D3 ###
 P:D3
 V:Aux
