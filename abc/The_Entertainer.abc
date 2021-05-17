@@ -165,13 +165,13 @@ V:Aux
 V:Tenor
  |E c2 E c2 E c-|
   c4-c [ege'] [dfd'] [^d^f^d']|
-  [ege'] [cdc'] [dfd'] [ege']-[ege'] [Bdb] [dfd']2|
+  [ege'] [cec'] [dfd'] [ege']-[ege'] [Bdb] [dfd']2|
   [cec']4-[cec']2 (D^D)|
 V:Bass
  |C,2 [E,G,C]2 [G,,G,]2 [G,_B,C]2|
   [F,,F,]2 [A,C]2 [E,,E,]2 [G,C]2|
   G,,2 [E,G,C]2 G,,2 [F,G,B,]2|
-  C,2 [E,G,C]2 [E,G,C2]2 [G,B,]2|
+  C,2 [E,G,C]2 [E,G,C]2 [G,B,]2|
 % ### C2 ###
 P:C2
 V:Aux
