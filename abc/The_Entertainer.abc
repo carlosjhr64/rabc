@@ -270,17 +270,17 @@ V:Aux
 |]
 V:Tenor
  |d2 g d-d g d2|
-  c4 [^G=BF]3 f|
-  [Aca] [cc']2 [gb]-[gb] c d e|
+  c4 [^G=Bf]3 f|
+  [Aca] [cc']2 [Bg]-[Bg] c [Bd] e|
 [1
-  [Af]2 _B c d e f g
+  [Af]2 =B c d e f g
 :|2
   [Af]2  z2 [fac'f']2 z2
 |]
 V:Bass
   [B,,B,]2 [B,D]2 [G,,G,]2 [^G,,^G,]2|
   [A,,A,] [F,,F,] [E,,E,] [D,,D,] [_D,,_D,]4|
-  [C,,C,]2 [A,CE]2 [C,C]2 [C,,C,]2|
+  [C,,C,]2 [A,CF]2 [C,C]2 [C,,C,]2|
 [1
   [F,,F,]2 z2 z4|
 :|2
