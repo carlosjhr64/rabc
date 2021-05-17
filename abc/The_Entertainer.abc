@@ -65,12 +65,7 @@ V:Bass
 % ### A4 ###
 P:A4
 V:Aux
- |z8|z8|z8|
-[1
-  z8
-:|2
-  z8
-|]
+ |z8|z8|z8| [1 z8 :|2 z8 |]
 V:Tenor
  |[ee'] [cc'] [dd'] [ee']-[ee'] [cc'] [dd'] [cc']|
   [ee'] [cc'] [dd'] [ee']-[ee'] [cc'] [dd'] [cc']|
@@ -134,12 +129,7 @@ V:Bass
 % ### B4 ###
 P:B4
 V:Aux
- |z8|z8|z8|
-[1
-  z8
-:|2
-  z8
-|]
+ |z8|z8|z8| [1 z8 :|2 z8 |]
 V:Tenor
  |c2 A c-c A c A|
   G c e g-g e c G|
@@ -262,12 +252,7 @@ V:Bass
 % ### D3 ###
 P:D3
 V:Aux
- |z8|z8|z8|
-[1
-  z8
-:|2
-  z8
-|]
+ |z8|z8|z8| [1 z8 :|2 z8 |]
 V:Tenor
  |d2 g d-d g d2|
   c4 [^G=Bf]3 f|
@@ -348,14 +333,9 @@ V:Bass
 % ### F4 ###
 P:F4
 V:Aux
- |z8|z8|z8|
-[1
-  z8
-:|2
-  z8
-|]
+ |z8|z8|z8| [1 z8 :|2 z8 |]
 V:Tenor
- |A ^G A [Ag]-[Ag] [Af]2 [Ac]|
+ |A ^G A [A=g]-[A=g] [Af]2 [Ac]|
   [Ge] ^d e a-a c' g e|
   [^Fc]2 [Fc]2 [=FBe] [FBd]2 [EGc]-|
 [1
