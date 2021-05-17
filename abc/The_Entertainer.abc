@@ -184,10 +184,10 @@ V:Tenor
   E c2 E c2 E c-|
 V:Bass
  |C,2 [E,G,C]2 [G,,G,]2 [G,_B,C]2|
-  [F,,F,]2 [A,C]2 [E,,E,]2 [_E,,E,]2|
-  [D,,D]2 [D,^F,A,C]2 D,2 [FAC]2|
-  [G,B,]2 [G,,G,]2 [A,,A]2 [B,,B,]2|
-  C,2 [E,G,C]2 [G,,G]2 [G,_B,C]2|
+  [F,,F,]2 [A,C]2 [E,,E,]2 [_E,,_E,]2|
+  [D,,D,]2 [D,^F,A,C]2 D,2 [FAC]2|
+  [G,B,]2 [G,,G,]2 [A,,A,]2 [B,,B,]2|
+  C,2 [E,G,C]2 [G,,G,]2 [G,_B,C]2|
 % ### C3 ###
 P:C3
 V:Aux
